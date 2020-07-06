@@ -30,7 +30,8 @@ You just run `main.py` in editor or enter `python main.py` in command prompt.
 - You can see all the adjustable parameters and usage. ```python main.py --help``` <img src = 'assets/argument.png' width=500>
 
 
-  Example usage in the command prompt:
+
+Example usage in the command prompt:
 - Running the program with EnFCM algorithm: `python main.py --algorithm EnFCM` or `python main.py -a EnFCM'`
 - Running the program with 5 clusters:  `python main.py --num_cluster 5` or `python main.py -c 5`
 - Do not plot the results: `python main.py --plot_show 0`
