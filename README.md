@@ -111,8 +111,9 @@ Iteration 58 : cost = 0.041010
 2. When there is a problem with the environment, you can try this command line in your command prompt. <pre> pip install -r requirements.txt </pre>
 
 ## References
-* [1] [Z. Chen and R. Zwiggelaar "A Modified Fuzzy C Means Algorithm for Breast Tissue Density Segmentation in Mammograms." IEEE/Information Technology and Applications in Biomedicine (ITAB) 2010.](https://ieeexplore.ieee.org/document/5687751)
-* [2] [J. Song and Z. Zhang "A Modified Robust FCM Model with Spatial Constraints for Brain MR Image Segmentation." Information 2019.](https://www.researchgate.net/publication/331278874_A_Modified_Robust_FCM_Model_with_Spatial_Constraints_for_Brain_MR_Image_Segmentation)
+* [1] [L. Szilagyi and et.al. "MR brain image segmentation using an enhanced fuzzy C-means algorithm." IEEE/ Engineering in Medicine and Biology Society (ICat.) 2003.](https://ieeexplore.ieee.org/document/1279866)
+* [2] [Z. Chen and R. Zwiggelaar "A Modified Fuzzy C Means Algorithm for Breast Tissue Density Segmentation in Mammograms." IEEE/Information Technology and Applications in Biomedicine (ITAB) 2010.](https://ieeexplore.ieee.org/document/5687751)
+* [3] [J. Song and Z. Zhang "A Modified Robust FCM Model with Spatial Constraints for Brain MR Image Segmentation." Information 2019.](https://www.researchgate.net/publication/331278874_A_Modified_Robust_FCM_Model_with_Spatial_Constraints_for_Brain_MR_Image_Segmentation)
 * https://github.com/ab93/SIFCM
 
 ## TODO:
