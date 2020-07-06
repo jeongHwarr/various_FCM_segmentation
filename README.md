@@ -27,8 +27,7 @@ You just run `main.py` in editor or enter `python main.py` in command prompt.
 ### User mode
 - If you want to replace the mini data with your own data, put your images to `img` directory or edit path for your direrectory in `main.py`.   
 - If you change parameters of your experiment, you can change parameters by changing the default value of the argument in `main.py` or you can you the command line in command prompt.
-- You can see all the adjustable parameters and usage. ```python main.py --help```
-<img src = 'assets/argument.png' width=500>
+- You can see all the adjustable parameters and usage. ```python main.py --help``` <img src = 'assets/argument.png' width=500>
 
 
   Example usage in the command prompt:
@@ -101,9 +100,9 @@ Iteration 58 : cost = 0.041010
 
 |Algorithm| Result |
 |:---:|:---: |
-|FCM|<img src = 'assets/result_fcm.png' width=800>|
-|EnFCM|<img src = 'assets/result_enfcm.png' width=800> <img src = 'assets/result2.png' width=500>|
-|MFCM|<img src = 'assets/result_mfcm.png' width=800> <img src = 'assets/result2.png' width=500>|    
+|FCM|<img src = 'assets/result_fcm.png' width=500>|
+|EnFCM|<img src = 'assets/result_enfcm.png' width=500>|
+|MFCM|<img src = 'assets/result_mfcm.png' width=500>|    
 
 
 ## Troubleshooting:
