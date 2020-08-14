@@ -12,20 +12,6 @@ import matplotlib.pyplot as plt
 from scipy.signal import convolve2d
 from utils import makedirs
  
-def get_mean_image_in_window(image, kernel):
-    '''Get image consisting of mean values ​​of neighboring pixels in a window '''    
-    neighbor_sum = convolve2d(
-        image, kernel, mode='same',
-        boundary='fill', fillvalue=0)
-
-    num_neighbor = convolve2d(
-        np.ones(image.shape), kernel, mode='same',
-        boundary='fill', fillvalue=0)
-
-    return neighbor_sum / num_neighbor     
-   
-    
-
 class FCM():
     def __init__(self, image, image_bit, n_clusters, m, epsilon, max_iter):
         '''Modified Fuzzy C-means clustering
